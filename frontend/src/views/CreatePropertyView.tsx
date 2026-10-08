@@ -111,7 +111,6 @@ export const CreatePropertyView: React.FC<CreatePropertyViewProps> = ({ editProp
 
     if (isEdit && existingProp) {
       updateProperty(existingProp.id, {
-        category_id: categoryId,
         title,
         description,
         propertyType,
