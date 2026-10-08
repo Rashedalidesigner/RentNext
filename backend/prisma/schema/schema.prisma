@@ -1,0 +1,11 @@
+// Prisma configuration for the multi-file RentNest schema.
+// Models and enums live in the individual *.prisma files in this directory.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}

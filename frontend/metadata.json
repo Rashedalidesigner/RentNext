@@ -1,0 +1,6 @@
+{
+  "name": "RentNest - Rental Property Marketplace",
+  "description": "Modern rental property marketplace with tenant requests, landlord management, payment flows, and admin moderation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
